@@ -1,0 +1,34 @@
+{
+    "name": "netflex/gastroplanner-adapter",
+    "description": "Gastroplanner adapter for the Netflex SDK",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "netflex",
+        "sdk",
+        "gastroplanner"
+    ],
+    "authors": [
+        {
+            "name": "Thomas Alrek",
+            "email": "thomas@apility.no"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Netflex\\": "src/Netflex"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/apility/gastroplanner-laravel"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "apility/gastroplanner": "^1.0",
+        "netflex/customers": "^4.0",
+        "netflex/commerce": "^4.0"
+    }
+}
